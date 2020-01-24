@@ -63,8 +63,12 @@ div.book{
     border-radius: 10px;
 }
 body{
-    background-image: url("https://ak3.picdn.net/shutterstock/videos/20824183/thumb/1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+   
+        background: url("https://ak3.picdn.net/shutterstock/videos/20824183/thumb/1.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
 }
  
